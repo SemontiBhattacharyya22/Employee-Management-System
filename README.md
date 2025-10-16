@@ -1,73 +1,16 @@
-Employee Management System
+# React + Vite
 
-A React-based web application for managing employees and their tasks. This project allows admins to create, assign, and monitor tasks, while employees can view and update their assigned tasks. It demonstrates practical skills in React development, state management, and building interactive dashboards.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Features
+Currently, two official plugins are available:
 
-Admin Dashboard
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Create tasks with title, description, category, due date, and assign to employees
+## React Compiler
 
-Track task status: new, active, completed, failed
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Monitor task counts for each employee
+## Expanding the ESLint configuration
 
-Employee Dashboard
-
-View assigned tasks
-
-Update task progress and completion status
-
-Track task deadlines
-
-State Management & Persistence
-
-Uses React Context API for global state management
-
-Uses localStorage for persistent storage of employee and task data
-
-Responsive Design
-
-Clean, user-friendly interface for both admin and employees
-
-Real-time updates across dashboards
-
-Technologies Used
-
-React – Frontend library
-
-React Hooks – useState and useEffect for state and lifecycle management
-
-React Context API – Global state management
-
-localStorage – Data persistence
-
-Tailwind CSS – Styling and layout
-
-Usage
-
-Admin can log in and create tasks for employees.
-
-Tasks are automatically stored in localStorage and reflected in employee dashboards.
-
-Employees can view, update, and mark tasks as completed.
-
-Project Highlights
-
-Full-featured admin and employee dashboards
-
-Dynamic task creation and assignment
-
-Persistent data storage and real-time state updates
-
-Demonstrates React state management, hooks, and Context API usage
-
-Future Enhancements
-
-Add authentication & role-based access
-
-Integrate a backend database (e.g., Firebase, MongoDB)
-
-Add notifications for task updates
-
-Include task priority and filtering
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
